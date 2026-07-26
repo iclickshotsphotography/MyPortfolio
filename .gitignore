@@ -4,3 +4,4 @@ __pycache__/
 .chrome-*/
 .chrome-test-profile/
 viewport-*.png
+INSTRUCTIONS.txt
