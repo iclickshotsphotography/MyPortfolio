@@ -362,7 +362,8 @@ def main() -> int:
     <div class="contact-options">
       <a class="contact-card" href="mailto:{quote(site['email'], safe='@.+-')}"><span>Email</span><strong>{html.escape(site["email"])}</strong></a>
 
-#   HERE IS THE INSTAGRAM THING, DETE THIS TO GET RID OF IT, if you want to change the url / name, change it in sites.ini  <a class="contact-card" href="{html.escape(instagram_url, quote=True)}" target="_blank" rel="noopener noreferrer"><span>Instagram</span><strong>{html.escape(site.get("instagram_username", "@yourusername"))}</strong></a>
+
+quote=True)}" target="_blank" rel="noopener noreferrer"><span>Instagram</span><strong>{html.escape(site.get("instagram_username", "@yourusername"))}</strong></a>
       <div class="contact-card"><span>Location</span><strong>{html.escape(site["location"])}</strong></div>
     </div>
   </div></section>
